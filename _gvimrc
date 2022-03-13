@@ -3,3 +3,6 @@ set guifont=Consolas:h16
 set number
 syntax on
 set mouse=a
+set paste
+set noundofile
+set nobackup

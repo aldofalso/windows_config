@@ -3,7 +3,7 @@
 cd /d "%~dp0"
 
 REM *** Install Programs ***
-winget install --id=Google.Chrome -e  && winget install --id=vim.vim -e  && winget install --id=qBittorrent.qBittorrent -e  && winget install --id=Adobe.Acrobat.Reader.64-bit -e  && winget install --id=Mozilla.Thunderbird -e  && winget install --id=Notepad++.Notepad++ -e  && winget install --id=Oracle.VirtualBox -e  && winget install --id=TimKosse.FileZilla.Client -e  && winget install --id=PeterPawlowski.foobar2000 -e  && winget install --id=REALiX.HWiNFO -e  && winget install --id=TheDocumentFoundation.LibreOffice -e  && winget install --id=Lexikos.AutoHotkey -e  && winget install --id=VideoLAN.VLC -e  && winget install --id=7zip.7zip -e  && winget install --id=Python.Python.3 -e  && winget install --id=Rufus.Rufus -e  && winget install --id=PrestonN.FreeTube -e 
+winget install --id=Mozilla.Firefox -e  && winget install --id=vim.vim -e  && winget install --id=qBittorrent.qBittorrent -e  && winget install --id=Adobe.Acrobat.Reader.64-bit -e  && winget install --id=Mozilla.Thunderbird -e && winget install --id=Oracle.VirtualBox -e  && winget install --id=TimKosse.FileZilla.Client -e  && winget install --id=PeterPawlowski.foobar2000 -e  && winget install --id=REALiX.HWiNFO -e  && winget install --id=TheDocumentFoundation.LibreOffice -e  && winget install --id=Lexikos.AutoHotkey -e  && winget install --id=VideoLAN.VLC -e  && winget install --id=7zip.7zip -e  && winget install --id=Python.Python.3 -e  && winget install --id=Rufus.Rufus -e  && winget install --id=PrestonN.FreeTube -e 
 
 REM *** Remove Programs ***
 PowerShell -Command "Get-AppxPackage *SkypeApp* | Remove-AppxPackage"
